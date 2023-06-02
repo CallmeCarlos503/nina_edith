@@ -35,7 +35,10 @@
                 <p class="card-text smalltext"><h4>Director:</h4> @Html.DisplayFor(modelItem => item.Director) </p>
                 <p class="card-text smalltext"><h4>Genero:</h4> @Html.DisplayFor(modelItem => item.Genero) </p>
                 <p class="card-text smalltext"><h4>Calificacion:</h4> @Html.DisplayFor(modelItem => item.Calificacion) </p>
-                @Html.ActionLink("Edicion a la clasificacion", "EditCal", new { id = item.PeliculaId })
+                <div class="btn btn-dark" style="text-decoration:none;">
+                    @Html.ActionLink("Editar datos", "Edit", new { id = item.PeliculaId },new {@class= "actionlink"})
+                </div>
+                
 
             </div>
         </div>

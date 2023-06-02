@@ -15,8 +15,11 @@ body{
 .banner{
     width: 100%;
 }
+.actionlink{
+    text-decoration:none;
+}
 
-.dvideo{
+.dvideo {
     height: 315px;
 }
 

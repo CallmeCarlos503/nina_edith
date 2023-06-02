@@ -156,7 +156,7 @@ namespace MVC_tarea.Controllers
         {
             byte[] ImagenActual = null;
 
-            HttpPostedFileBase http = Request.Files[0];
+          HttpPostedFileBase http = Request.Files[0];
             if (http == null)
             {
                 ImagenActual = db.Peliculas.SingleOrDefault(t => t.PeliculaId == peliculas.PeliculaId).Poster;
