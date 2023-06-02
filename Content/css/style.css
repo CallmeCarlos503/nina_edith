@@ -18,6 +18,10 @@ body{
 .actionlink{
     text-decoration:none;
 }
+.actionlink:hover{
+    color:wheat;
+    background-color:violet;
+}
 
 .dvideo {
     height: 315px;
