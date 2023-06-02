@@ -1,0 +1,34 @@
+body{
+    margin: 0px auto;
+    background-color: gray;    
+}
+
+.centered{
+    margin: 0px auto;
+    text-align: center;
+}
+
+.navprincipal{
+    background-color:midnightblue;
+}
+
+.banner{
+    width: 100%;
+}
+
+.dvideo{
+    height: 315px;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+#footer{
+    background-color: #070f52 ;
+}
+
+.smalltext{
+    font-size: 6;
+}

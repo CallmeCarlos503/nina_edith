@@ -1,0 +1,21 @@
+﻿@model IEnumerable<MVC_tarea.Models.Peliculas>
+
+<div class="row centered">
+    <div class="col-md-12">
+        <h1> Cartelera de peliculas </h1>
+    </div>
+</div>
+
+@foreach (var item in Model)
+{
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="@Url.Action("getPoster", "Peliculas", new {id= item.PeliculaId})" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title smalltext"> <h4>Titulo</h4> @Html.DisplayFor(modelItem => item.Titulo) </h5>
+            <p class="card-text smalltext"> @Html.DisplayFor(modelItem => item.Sinopsis) </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+}
+
+

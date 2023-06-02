@@ -1,0 +1,187 @@
+[1203/192444.381:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[1203/192444.518:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[1203/192444.650:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is disabled
+[1203/192449.622:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192449.695:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192450.535:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192450.603:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192451.922:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192451.991:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192453.971:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192454.042:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192456.951:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192457.018:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192502.014:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192502.116:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192508.246:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192508.313:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192519.106:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192519.176:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192534.619:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192534.690:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192557.650:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192557.722:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192630.116:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192630.187:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192725.985:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192726.055:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192844.076:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/192844.141:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/193036.417:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/193036.483:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/193331.103:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/193331.172:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/193729.279:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/193729.346:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/194342.239:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/194342.310:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/195249.674:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/195249.742:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/200817.397:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/200817.464:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/203220.389:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/203220.459:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/210447.127:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/210447.193:ERROR:ssl_client_socket_impl.cc(981)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1203/212632.471:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212637.475:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212642.478:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212647.481:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212652.484:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212657.487:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212702.490:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212707.495:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212712.498:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212717.500:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212722.503:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212727.506:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212732.509:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212737.512:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212738.536:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212742.515:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212743.550:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212747.519:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212748.560:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212752.522:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212753.565:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212757.525:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212758.582:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212802.528:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212803.592:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212807.531:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212808.600:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212812.535:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212813.612:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212817.537:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212818.628:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212822.540:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212823.644:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212827.544:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212828.655:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212832.548:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212833.659:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212837.550:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212838.676:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212842.553:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212843.691:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212847.556:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212848.707:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212852.559:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212853.722:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212857.562:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212858.735:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212902.566:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212903.738:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212907.569:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212908.750:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212912.572:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212913.767:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212917.575:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212918.777:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212922.578:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212923.782:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212927.581:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212928.796:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212932.584:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212933.813:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212937.587:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212938.828:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212942.590:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212943.846:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212947.593:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212948.861:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212952.596:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212953.876:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212957.600:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/212958.878:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213002.602:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213003.890:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213007.605:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213008.907:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213012.608:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213013.910:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213017.611:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213018.920:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213022.615:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213023.929:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213027.618:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213028.939:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213032.621:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213033.956:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213037.624:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213038.973:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213042.627:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213043.976:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213047.630:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213048.984:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213052.633:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213053.987:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213057.636:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213059.001:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213102.639:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213104.015:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213107.642:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213109.030:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213112.645:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213114.035:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213117.648:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213119.037:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213122.651:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213124.055:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213127.654:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213129.058:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213132.657:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213134.068:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213137.660:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213139.083:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213142.663:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213144.095:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213147.666:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213149.111:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213152.668:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213154.128:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213157.671:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213159.131:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213202.675:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213204.144:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213207.678:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213209.159:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213212.681:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213214.171:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213217.685:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213219.181:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213222.688:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213224.194:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213227.691:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213229.207:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213232.695:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213234.219:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213237.698:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213239.236:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213242.701:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213244.251:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213247.704:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213249.255:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213252.707:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213254.265:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[1203/213257.709:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.

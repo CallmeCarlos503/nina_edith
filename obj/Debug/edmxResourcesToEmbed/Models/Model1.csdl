@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PeliculasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Peliculas">
+    <Key>
+      <PropertyRef Name="PeliculaId" />
+    </Key>
+    <Property Name="PeliculaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Titulo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sinopsis" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Director" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Genero" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Calificacion" Type="Int32" />
+    <Property Name="Poster" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="PeliculasEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Peliculas" EntityType="Self.Peliculas" />
+  </EntityContainer>
+</Schema>

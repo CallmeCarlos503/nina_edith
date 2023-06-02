@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MVC_tarea.Models.Peliculas>
+
+<div class="row centered my-5">
+    <div class="col-md-12">
+        <h1> Cartelera de peliculas </h1>
+    </div>
+</div>
+
+<div class="row centered">
+    <p class="centered">Se presentaran diferentes peliculas en el listado</p>
+</div>
+
+<div class="col-md-12 centered my-5">
+    <p>estan ordenados por:</p>
+    
+    @Html.ActionLink("Nombre de pelicula", "Index", new { par = 1 })
+    @Html.ActionLink("Calificacion", "Index", new { par = 2 })
+    @Html.ActionLink("Genero", "Index", new { par = 3 })
+</div>
+
+@foreach (var item in Model)
+{
+    using (Html.BeginForm("EditCal", "Peliculas", FormMethod.Post, new { enctype = "multipart/form-data", @class = "col-xl-3 col-lg-4 col-md-6 col-sm-12" }))
+    {
+
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => item.PeliculaId)
+
+        <div class="card col-md-12 centered" style="width: 18rem;">
+            <img class="card-img-top" src="@Url.Action("getPoster", "Peliculas", new { id = item.PeliculaId })" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Titulo: </h4>@Html.DisplayFor(modelItem => item.Titulo)
+                <p class="card-text smalltext"><h4>Sinopsis:</h4> @Html.DisplayFor(modelItem => item.Sinopsis) </p>
+                <p class="card-text smalltext"><h4>Director:</h4> @Html.DisplayFor(modelItem => item.Director) </p>
+                <p class="card-text smalltext"><h4>Genero:</h4> @Html.DisplayFor(modelItem => item.Genero) </p>
+                <p class="card-text smalltext"><h4>Calificacion:</h4> @Html.DisplayFor(modelItem => item.Calificacion) </p>
+                @Html.ActionLink("Edicion a la clasificacion", "EditCal", new { id = item.PeliculaId })
+
+            </div>
+        </div>
+
+    }
+
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

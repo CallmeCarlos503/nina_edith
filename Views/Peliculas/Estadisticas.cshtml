@@ -1,0 +1,105 @@
+﻿@model IEnumerable<MVC_tarea.Models.Peliculas>
+
+<div class="row centered my-5">
+    <div class="col-md-12">
+        <h1> Top 5 peliculas mejor calificadas </h1>
+    </div>
+</div>
+
+<div class="row centered">
+    <p class="centered mb-5">A continuacion se enlistan las peliculas en exhibicion con las mejores calificaciones</p>
+</div>
+
+@foreach (var item in Model)
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => item.PeliculaId)
+
+    <div class="card col-md-12 centered" style="width: 18rem;">
+        <img class="card-img-top" src="@Url.Action("getPoster", "Peliculas", new { id = item.PeliculaId })" alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-title">Titulo: </h4>@Html.DisplayFor(modelItem => item.Titulo)
+            <p class="card-text smalltext"><h4>Sinopsis:</h4> @Html.DisplayFor(modelItem => item.Sinopsis) </p>
+            <p class="card-text smalltext"><h4>Director:</h4> @Html.DisplayFor(modelItem => item.Director) </p>
+            <p class="card-text smalltext"><h4>Genero:</h4> @Html.DisplayFor(modelItem => item.Genero) </p>
+            <p class="card-text smalltext"><h4>Calificacion:</h4> @Html.DisplayFor(modelItem => item.Calificacion) </p>
+
+
+        </div>
+    </div>
+}
+
+<br />
+
+<div id="container"></div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script>
+        Highcharts.chart('container', {
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Monthly Average Rainfall'
+            },
+            subtitle: {
+                text: 'Source: WorldClimate.com'
+            },
+            xAxis: {
+                categories: [
+                    'Calificaciones',
+                    
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Rainfall (mm)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                    '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [
+                {
+                    name: 'aa',
+                data: [49.9]
+
+            }, {
+                name: 'New York',
+                data: [83.6]
+
+            }, {
+                name: 'London',
+                data: [48.9]
+
+            }, {
+                name: 'Berlin',
+                data: [42.4]
+
+            }, {
+                name: 'Costa Rica',
+                data: [51]
+
+            }]
+        });
+    </script>
+}
